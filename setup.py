@@ -25,9 +25,9 @@ setup(
         re.compile('^.. start-badges.*^.. end-badges', re.M | re.S).sub('', read('README.rst')),
         re.sub(':[a-z]+:`~?(.*?)`', r'``\1``', read('CHANGELOG.rst'))
     ),
-    author='Carson Farmer',
-    author_email='carson@textile.io',
-    url='https://github.com/carsonfarmer/py-multihash',
+    author='Hareesh Nagaraj',
+    author_email='hareesh.nagaraj@gmail.com',
+    url='https://github.com/hareeshnagaraj/py-multihash',
     packages=find_packages('src'),
     package_dir={'': 'src'},
     py_modules=[splitext(basename(path))[0] for path in glob('src/*.py')],
